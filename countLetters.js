@@ -18,9 +18,9 @@ const countLetters = function(letters) {
 }
 
 // Testing the countLetters function
-console.assertEqual(countLetters("abc") === 3, "Test Case 1 Failed");
-console.assertEqual(countLetters("hello") === 4, "Test Case 2 Failed");
-console.assertEqual(countLetters("mississippi") === 4, "Test Case 3 Failed");
+console.assert(countLetters("abc") === 3, "Test Case 1 Failed");
+console.assert(countLetters("hello") === 4, "Test Case 2 Failed");
+console.assert(countLetters("mississippi") === 4, "Test Case 3 Failed");
 
 // If all tests pass, this will not produce any output
 console.log("All tests passed!");
